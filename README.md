@@ -1,6 +1,6 @@
 # Cookier
 
-![MIT License](https://img.shields.io/github/license/Decaded/Cookier)
+[![MIT License](https://img.shields.io/github/license/Decaded/Cookier)](https://github.com/Decaded/Cookier/blob/master/LICENSE.md)
 ![Minified Size](https://img.shields.io/github/size/Decaded/Cookier/cookier.js?label=JS%20Size)
 
 **Cookier** is a lightweight, customizable cookie consent banner that informs users about cookie usage. It includes a simple "accept" button and a link for more information about
@@ -29,16 +29,16 @@ To implement Cookier in your project, follow these steps:
 </div>
 ```
 
-2. Link to the stylesheet by adding the following `<link>` tag in your `<head>` section. Or just include [cookier.css](https://raw.githubusercontent.com/Decaded/Cookier/refs/heads/master/cookier.css) in your project manually.
+2. Place [cookier.css](https://github.com/Decaded/Cookier/blob/master/cookier.css) in your project CSS folder (or wherever you hold styles) and link it:
 
 ```html
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Decaded/Cookier/refs/heads/master/cookier.css">
+<link rel="stylesheet" href="css/cookier.css"/>
 ```
 
-3. Include the JavaScript file by adding this `<script>` tag before the closing `</body>` tag. Or just include [cookier.js](https://raw.githubusercontent.com/Decaded/Cookier/refs/heads/master/cookier.js) in your project manually.
+3. Include [cookier.js](https://github.com/Decaded/Cookier/blob/master/cookier.js) in your project JS folder (or wherever you hold scripts) and link it:
 
 ```html
-<script src="https://raw.githubusercontent.com/Decaded/Cookier/refs/heads/master/cookier.js"></script>
+<script src="js/cookier.js"></script>
 ```
 
 ## Customization
