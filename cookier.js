@@ -38,6 +38,8 @@ if (!getCookie(cookieName)) {
 
 // Handle click on "Close (X)" button
 document.getElementById('closeCookierButton').addEventListener('click', function () {
+	// alert('Good Boy, have a cookie for following directions: 🍪'); // Uncomment this to display message when user click the 'X' button
+
 	setCookie(cookieName, 'true', 365); // Set cookie for 1 year
 	document.getElementById('cookierBanner').classList.remove('show');
 });
