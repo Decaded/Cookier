@@ -1,7 +1,7 @@
 # Cookier
 
 ![MIT License](https://img.shields.io/github/license/Decaded/Cookier)
-![Minified Size](https://img.shields.io/github/size/Decaded/Cookier/script.js?label=JS%20Size)
+![Minified Size](https://img.shields.io/github/size/Decaded/Cookier/Cookier/script.js?label=JS%20Size)
 
 **Cookier** is a lightweight, customizable cookie consent banner that informs users about cookie usage. It includes a simple "accept" button and a link for more information about
 cookies.
