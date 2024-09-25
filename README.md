@@ -29,16 +29,16 @@ To implement Cookier in your project, follow these steps:
 </div>
 ```
 
-2. Link to the stylesheet by adding the following `<link>` tag in your `<head>` section. The CSS file is hosted in the GitHub repository:
+2. Link to the stylesheet by adding the following `<link>` tag in your `<head>` section. Or just include [cookier.css](https://raw.githubusercontent.com/Decaded/Cookier/refs/heads/master/Cookier/cookier.css) in your project manually.
 
 ```html
-<link rel="stylesheet" href="https://github.com/Decaded/Cookier/blob/master/Cookier/styles.css">
+<link rel="stylesheet" href="https://raw.githubusercontent.com/Decaded/Cookier/refs/heads/master/Cookier/cookier.css">
 ```
 
-3. Include the JavaScript file by adding this `<script>` tag before the closing `</body>` tag. The JavaScript file is hosted in the GitHub repository:
+3. Include the JavaScript file by adding this `<script>` tag before the closing `</body>` tag. Or just include [cookier.js](https://raw.githubusercontent.com/Decaded/Cookier/refs/heads/master/Cookier/cookier.js) in your project manually.
 
 ```html
-<script src="https://github.com/Decaded/Cookier/blob/master/Cookier/script.js"></script>
+<script src="https://raw.githubusercontent.com/Decaded/Cookier/refs/heads/master/Cookier/cookier.js"></script>
 ```
 
 ## Customization
