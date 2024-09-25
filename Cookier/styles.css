@@ -1,0 +1,73 @@
+/*
+* Cookie alert by Decaded
+* https://github.com/Decaded/Cookier
+* Released under MIT license
+*/
+
+/* Styling for the cookie consent alert */
+.cookierAlert {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin: 0 !important;
+	z-index: 999;
+	opacity: 0;
+	visibility: hidden;
+	border-radius: 0;
+	transform: translateY(100%);
+	transition: all 500ms ease-out;
+	color: #ecf0f1;
+	background: #212327;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap; /* Allow dynamic wrapping if space is tight */
+}
+
+.cookierAlert.show {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0%);
+	transition-delay: 1000ms;
+}
+
+.cookierAlert a {
+	text-decoration: underline;
+	color: #4caf50;
+	margin-left: 10px;
+}
+
+.cookierAlert .closeCookierButton {
+	margin-left: 10px;
+	vertical-align: baseline;
+	padding: 5px 10px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+.cookierAlert .closeCookierButton:hover {
+	background-color: #45a049;
+}
+
+.cookierAlert p {
+	margin: 0;
+	padding: 15px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+	.cookierAlert {
+		flex-direction: column; /* Stacks the items vertically on smaller screens */
+	}
+	.cookierAlert p,
+	.cookierAlert a,
+	.cookierAlert .closeCookierButton {
+		margin-top: 10px;
+	}
+}
