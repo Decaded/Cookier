@@ -1,8 +1,8 @@
 /*
-* Cookie alert by Decaded
-* https://github.com/Decaded/Cookier
-* Released under MIT license
-*/
+ * Cookie alert by Decaded
+ * https://github.com/Decaded/Cookier
+ * Released under MIT license
+ */
 
 // Function to set a cookie
 function setCookie(name, value, days) {
@@ -37,7 +37,7 @@ if (!getCookie(cookieName)) {
 }
 
 // Handle click on "Close (X)" button
-document.getElementById('close-btn').addEventListener('click', function () {
+document.getElementById('closeCookierButton').addEventListener('click', function () {
 	setCookie(cookieName, 'true', 365); // Set cookie for 1 year
 	document.getElementById('cookierBanner').classList.remove('show');
 });
